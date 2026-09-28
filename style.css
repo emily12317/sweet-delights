@@ -1,0 +1,198 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.marca,
+.titulo,
+.titulo-seccion,
+.card-title,
+.nombre-resena {
+  font-family: "Playfair Display", serif;
+}
+
+.hero {
+  background: #cfe8ff;
+  min-height: 100vh;
+  padding-top: 30px;
+  position: relative;
+}
+
+.titulo {
+  font-size: clamp(36px, 7vw, 65px);
+  color: #24507d;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.dona {
+  width: 250px;
+  transition: 0.3s;
+}
+
+.dona:hover {
+  transform: scale(1.08);
+}
+
+.buscador {
+  max-width: 550px;
+  margin: auto;
+}
+
+.buscador .form-control {
+  height: 55px;
+  border-radius: 12px 0 0 12px;
+}
+
+.buscador .btn {
+  border-radius: 0 12px 12px 0;
+  padding: 0 35px;
+}
+
+.lupa {
+  background: #ffffff;
+  border: 0;
+  border-radius: 12px 0 0 12px;
+  color: #adb5bd;
+  padding-left: 20px;
+}
+
+.lupa + .form-control {
+  border: 0;
+  border-radius: 0;
+}
+
+.marca {
+  color: #24507d;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.titulo-seccion {
+  color: #24507d;
+  font-weight: bold;
+}
+
+.seccion-rosa {
+  background: #f9d9e7;
+}
+
+.seccion-celeste {
+  background: #cfe8ff;
+}
+
+.categoria {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.precio {
+  color: #e0489a;
+}
+
+.nombre-resena {
+  color: #e0489a;
+  font-weight: bold;
+}
+
+.boton-rosa {
+  background: #e0489a;
+  color: white;
+  border-radius: 20px;
+}
+
+.ondas {
+  height: 40px;
+  background-size: 80px 40px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+
+  background-image: radial-gradient(ellipse 50% 100% at 50% 100%, var(--color-onda) 98%, transparent 100%);
+}
+
+.ondas-chicas {
+  height: 20px;
+  background-size: 40px 20px;
+}
+
+.ondas-grandes {
+  height: 80px;
+  background-size: 220px 80px;
+}
+
+.ondas-abajo {
+  background-position: top;
+  background-image: radial-gradient(ellipse 50% 100% at 50% 0%, var(--color-onda) 98%, transparent 100%);
+}
+
+.ondas-blanco {
+  --color-onda: #ffffff;
+}
+
+.ondas-rosa {
+  --color-onda: #f9d9e7;
+}
+
+.ondas-celeste {
+  --color-onda: #cfe8ff;
+}
+
+.onda-suave {
+  height: 70px;
+  background-repeat: repeat-x;
+  background-size: 700px 70px;
+  background-position: bottom;
+}
+
+.onda-suave-rosa {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" preserveAspectRatio="none"><path d="M0 45 C 120 10, 230 70, 350 40 C 470 10, 580 65, 700 35 L 700 70 L 0 70 Z" fill="%23f9d9e7"/></svg>');
+}
+
+.onda-suave-celeste {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" preserveAspectRatio="none"><path d="M0 45 C 120 10, 230 70, 350 40 C 470 10, 580 65, 700 35 L 700 70 L 0 70 Z" fill="%23cfe8ff"/></svg>');
+}
+
+.onda-pico {
+  height: 90px;
+  background-repeat: repeat-x;
+  background-size: 900px 90px;
+  background-position: bottom;
+}
+
+.onda-pico-blanco {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" preserveAspectRatio="none"><path d="M0 70 C 150 95, 260 5, 450 40 C 640 75, 760 15, 900 55 L 900 90 L 0 90 Z" fill="%23ffffff"/></svg>');
+}
+
+.onda-final {
+  height: 50px;
+  background-repeat: repeat-x;
+  background-size: 700px 50px;
+  background-position: bottom;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 50" preserveAspectRatio="none"><path d="M0 30 C 170 5, 350 45, 520 20 C 600 10, 660 15, 700 25 L 700 50 L 0 50 Z" fill="%23f9d9e7"/></svg>');
+}
+
+.img-destacado {
+  height: 220px;
+  object-fit: cover;
+}
+
+.img-helados {
+  width: 350px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.img-articulo {
+  height: 350px;
+  object-fit: cover;
+}
+
+.articulo {
+  max-width: 750px;
+}
+
+.img-portada {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
